@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     79546,       1768]
-NotebookOptionsPosition[     78647,       1739]
-NotebookOutlinePosition[     79000,       1755]
-CellTagsIndexPosition[     78957,       1752]
+NotebookDataLength[     80423,       1789]
+NotebookOptionsPosition[     79524,       1760]
+NotebookOutlinePosition[     79877,       1776]
+CellTagsIndexPosition[     79834,       1773]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -345,9 +345,17 @@ Cell[BoxData[
         RowBox[{"FrameLabel", "\[Rule]", 
          RowBox[{"{", 
           RowBox[{
-          "\"\<pH\>\"", ",", "\"\<log[c]\>\"", ",", 
-           "\"\<Species Concentrations\>\"", ",", "None"}], "}"}]}]}], 
-       "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", "\t", 
+           RowBox[{"Style", "[", 
+            RowBox[{"\"\<pH\>\"", ",", "Black", ",", 
+             RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], ",", 
+           RowBox[{"Style", "[", 
+            RowBox[{"\"\<log[Conc]\>\"", ",", "Black", ",", 
+             RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], ",", 
+           RowBox[{"Style", "[", 
+            RowBox[{"\"\<Species Concentrations\>\"", ",", "Black", ",", 
+             RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], ",", "None"}], 
+          "}"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", "\t", 
      RowBox[{"t", " ", "=", " ", 
       RowBox[{
        RowBox[{"NSolve", "[", 
@@ -384,8 +392,8 @@ Cell[BoxData[
    3.734041433587038*^9, 3.7340414530673933`*^9}, 3.7751461003591843`*^9, {
    3.7751461340125427`*^9, 3.7751461663058157`*^9}, {3.775146364365138*^9, 
    3.7751463807684107`*^9}, {3.77522186381742*^9, 3.775221947922543*^9}, {
-   3.775222112303073*^9, 
-   3.7752221222913523`*^9}},ExpressionUUID->"dfe28502-366c-460e-bd87-\
+   3.775222112303073*^9, 3.7752221222913523`*^9}, {3.77522234112302*^9, 
+   3.775222412291582*^9}},ExpressionUUID->"dfe28502-366c-460e-bd87-\
 7d1576535b25"],
 
 Cell[CellGroupData[{
@@ -398,10 +406,12 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"pKw", "=", "14"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"concH2A", "=", "0.00610694"}], ";", " ", 
+  RowBox[{
+   RowBox[{"concH2A", "=", "0.00610694"}], ";"}], " ", 
   RowBox[{"(*", " ", 
-   RowBox[{"Concentrations", " ", "in", " ", "Molar"}], " ", "*)"}], 
-  "\[IndentingNewLine]", 
+   RowBox[{"Concentrations", " ", "in", " ", "Molar"}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{"concHA", "=", "0.0001"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"concA", "=", "0.0938931"}], ";"}], "\[IndentingNewLine]", 
@@ -429,9 +439,10 @@ Cell[BoxData[
  CellChangeTimes->{{3.77514616789861*^9, 3.77514618829952*^9}, {
    3.7751463888096113`*^9, 3.775146435732239*^9}, 3.77514660038477*^9, {
    3.7751470690542603`*^9, 3.7751470812933483`*^9}, {3.775221897223669*^9, 
-   3.775221911587219*^9}, 3.7752219503380938`*^9, 
-   3.7752221246364403`*^9},ExpressionUUID->"0b9f20b6-6012-4153-8639-\
-34baf576d3f8"],
+   3.775221911587219*^9}, 3.7752219503380938`*^9, 3.7752221246364403`*^9, 
+   3.775222348701988*^9, {3.7752223922699623`*^9, 
+   3.775222414261525*^9}},ExpressionUUID->"7a33cdb3-a977-42fe-8053-\
+d7dc24e4ee60"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
@@ -537,7 +548,7 @@ lvt2tq7MRm1QPRtdFKuiw+r6GOh44b022KXeHPQ3WcxSz/1j+t5HB841bBum
 ++myNmqH/rChLQZPCRWPuet6rCZab/+DuMWQvYxvoqZ0CSvxy/wg27LFQPv/
 oc/6H/uWajs=
        "]]},
-     Annotation[#, "Charting`Private`Tag$10155#1"]& ], 
+     Annotation[#, "Charting`Private`Tag$11991#1"]& ], 
     TagBox[
      {RGBColor[0.880722, 0.611041, 0.142051], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -645,7 +656,7 @@ feeAnFm5qqOCBq61SWbJWpIDZ3LVyi0YGnjOi9O1BpMcaJwYH6VpaODDZ9bE
 Z0xzAL3bHvlbWwPX4Yp2039xQGKwSmXMQAPfP3ff8NIcB/QVdR93GmvguZW+
 k3/+cKDOO9a+xkQD/x8EB2zo
        "]]},
-     Annotation[#, "Charting`Private`Tag$10155#2"]& ], 
+     Annotation[#, "Charting`Private`Tag$11991#2"]& ], 
     TagBox[
      {RGBColor[0.560181, 0.691569, 0.194885], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -783,7 +794,7 @@ OHWRV8LAGS7YTSheIHx9nsMzfgIXcg/sOfd/ixr/SU7jgsSyhtOEb4zK7rIo
 5kJi3vcThG8OzVxSqeKCPjsj+v95v/Y/HXvKhTMDIZGEM9ofcbI6uBDf4xZG
 OLMx4aLDEBe2OGccJnyryntidpYLG7p0Qwn/D8PiSOQ=
        "]]},
-     Annotation[#, "Charting`Private`Tag$10155#3"]& ], 
+     Annotation[#, "Charting`Private`Tag$11991#3"]& ], 
     TagBox[
      {RGBColor[0.922526, 0.385626, 0.209179], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -806,7 +817,7 @@ CHK+17rsT8cEQS747r0iukIQZHtFvaipFAQ5IDndNbpKEOTC1t9Z/tWCIJ9/
 t3Z9t+xINyQ8+NrVu2VttGf4ZGdX75aL7+67F9YuCHLLgYjMApcgyDqpLd73
 lyDIa/5c1R//IwhySXVSe2enIMj/APY5TRE=
        "]]},
-     Annotation[#, "Charting`Private`Tag$10155#4"]& ], 
+     Annotation[#, "Charting`Private`Tag$11991#4"]& ], 
     TagBox[
      {RGBColor[0.528488, 0.470624, 0.701351], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -840,7 +851,7 @@ c+2rhZ2/o8J+wyj2K0ABunoCea6Tv+SAOZCe+CtAB3D8Gb+Fjb8kP/RcFPsr
 QAFwAy+MroO/ZP2uKYr9K0DS3xSIsq5zv6S7afb//ytAvxf7t4gsk74fnVyF
 
        "]]},
-     Annotation[#, "Charting`Private`Tag$10155#5"]& ]}, {{}, {}}, {{{
+     Annotation[#, "Charting`Private`Tag$11991#5"]& ]}, {{}, {}}, {{{
       GraphicsGroupBox[{
         {GrayLevel[1], AbsoluteThickness[4], Opacity[
           NCache[
@@ -1131,9 +1142,17 @@ QAFwAy+MroO/ZP2uKYr9K0DS3xSIsq5zv6S7afb//ytAvxf7t4gsk74fnVyF
   DisplayFunction->Identity,
   Frame->{{True, True}, {True, True}},
   FrameLabel->{{
-     FormBox["\"log[c]\"", TraditionalForm], None}, {
-     FormBox["\"pH\"", TraditionalForm], 
-     FormBox["\"Species Concentrations\"", TraditionalForm]}},
+     FormBox[
+      StyleBox["\"log[Conc]\"", 
+       GrayLevel[0], FontSize -> 20, StripOnInput -> False], TraditionalForm],
+      None}, {
+     FormBox[
+      StyleBox["\"pH\"", 
+       GrayLevel[0], FontSize -> 20, StripOnInput -> False], TraditionalForm], 
+     FormBox[
+      StyleBox["\"Species Concentrations\"", 
+       GrayLevel[0], FontSize -> 20, StripOnInput -> False], 
+      TraditionalForm]}},
   FrameTicks->FrontEndValueCache[{{Automatic, 
       Charting`ScaledFrameTicks[{Identity, Identity}]}, {Automatic, 
       Charting`ScaledFrameTicks[{Identity, Identity}]}}, {{Automatic, {{-12.5, 
@@ -1203,6 +1222,7 @@ QAFwAy+MroO/ZP2uKYr9K0DS3xSIsq5zv6S7afb//ytAvxf7t4gsk74fnVyF
         FormBox[
          InterpretationBox[
           StyleBox[
+           
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}], Selectable -> False], TraditionalForm], {0.005, 
@@ -1481,6 +1501,7 @@ QAFwAy+MroO/ZP2uKYr9K0DS3xSIsq5zv6S7afb//ytAvxf7t4gsk74fnVyF
         FormBox[
          InterpretationBox[
           StyleBox[
+           
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}], Selectable -> False], TraditionalForm], {0.005, 
@@ -1642,7 +1663,6 @@ QAFwAy+MroO/ZP2uKYr9K0DS3xSIsq5zv6S7afb//ytAvxf7t4gsk74fnVyF
         FormBox[
          InterpretationBox[
           StyleBox[
-           
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}], Selectable -> False], TraditionalForm], {0.005, 
@@ -1733,8 +1753,9 @@ LN8J8k35JN8R1hVOqR8R0rRF
    3.775146188316169*^9}, {3.775146388831465*^9, 3.775146435749902*^9}, 
    3.77514660040729*^9, {3.775147069076832*^9, 3.7751470813118753`*^9}, {
    3.775221897241405*^9, 3.77522191160819*^9}, 3.77522195035599*^9, 
-   3.775222124654778*^9},ExpressionUUID->"239a5f18-f836-48c8-99fb-\
-5514f8025dc9"]
+   3.775222124654778*^9, 3.775222348720199*^9, {3.775222392289239*^9, 
+   3.775222414279669*^9}},ExpressionUUID->"b1852e50-b5ff-49cd-b003-\
+06892a757a2f"]
 }, Open  ]]
 },
 WindowSize->{776, 826},
@@ -1760,15 +1781,15 @@ Cell[580, 22, 2396, 57, 96, "Input", "ExpressionUUID" -> \
 Cell[2979, 81, 2294, 62, 102, "Output", "ExpressionUUID" -> \
 "60671f76-9aec-4f7a-8f7c-68d1d7a63f2a"]
 }, Open  ]],
-Cell[5288, 146, 9362, 242, 635, "Input", "ExpressionUUID" -> \
+Cell[5288, 146, 9804, 250, 698, "Input", "ExpressionUUID" -> \
 "dfe28502-366c-460e-bd87-7d1576535b25"],
 Cell[CellGroupData[{
-Cell[14675, 392, 1303, 29, 159, "Input", "ExpressionUUID" -> \
+Cell[15117, 400, 1330, 31, 159, "Input", "ExpressionUUID" -> \
 "59532d3b-e87e-4515-9737-edc1c1713070"],
-Cell[15981, 423, 551, 10, 24, "Print", "ExpressionUUID" -> \
-"0b9f20b6-6012-4153-8639-34baf576d3f8"],
-Cell[16535, 435, 62096, 1301, 402, "Output", "ExpressionUUID" -> \
-"239a5f18-f836-48c8-99fb-5514f8025dc9"]
+Cell[16450, 433, 625, 11, 24, "Print", "ExpressionUUID" -> \
+"7a33cdb3-a977-42fe-8053-d7dc24e4ee60"],
+Cell[17078, 446, 62430, 1311, 416, "Output", "ExpressionUUID" -> \
+"b1852e50-b5ff-49cd-b003-06892a757a2f"]
 }, Open  ]]
 }
 ]

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     72644,       1657]
-NotebookOptionsPosition[     71543,       1624]
-NotebookOutlinePosition[     71898,       1640]
-CellTagsIndexPosition[     71855,       1637]
+NotebookDataLength[     73386,       1675]
+NotebookOptionsPosition[     72285,       1642]
+NotebookOutlinePosition[     72640,       1658]
+CellTagsIndexPosition[     72597,       1655]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -257,9 +257,17 @@ Cell[BoxData[
          RowBox[{"FrameLabel", "\[Rule]", 
           RowBox[{"{", 
            RowBox[{
-           "\"\<pH\>\"", ",", "\"\<log[c]\>\"", ",", 
-            "\"\<Species Concentrations\>\"", ",", "None"}], "}"}]}]}], 
-        "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+            RowBox[{"Style", "[", 
+             RowBox[{"\"\<pH\>\"", ",", "Black", ",", 
+              RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], ",", 
+            RowBox[{"Style", "[", 
+             RowBox[{"\"\<log[Conc]\>\"", ",", "Black", ",", 
+              RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], ",", 
+            RowBox[{"Style", "[", 
+             RowBox[{"\"\<Species Concentrations\>\"", ",", "Black", ",", 
+              RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], ",", "None"}], 
+           "}"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", 
       RowBox[{
        RowBox[{"h", "[", "ph_", "]"}], ":=", 
        RowBox[{"10", "^", 
@@ -338,8 +346,8 @@ Cell[BoxData[
    3.775146751969932*^9}, {3.7751468654147987`*^9, 3.7751468738362017`*^9}, {
    3.7751469168812723`*^9, 3.775146917922078*^9}, 3.7751470179184637`*^9, {
    3.775220987176763*^9, 3.7752209949248333`*^9}, {3.7752210387815237`*^9, 
-   3.775221102325575*^9}, {3.775221962116737*^9, 
-   3.7752219689314127`*^9}},ExpressionUUID->"52dceb80-30d3-4556-bc6b-\
+   3.775221102325575*^9}, {3.775221962116737*^9, 3.7752219689314127`*^9}, 
+   3.7752224681230516`*^9},ExpressionUUID->"52dceb80-30d3-4556-bc6b-\
 cc904778dbbf"],
 
 Cell["\<\
@@ -414,9 +422,9 @@ Cell[BoxData[
    3.77514598621476*^9, {3.7751467428316307`*^9, 3.775146753838109*^9}, {
    3.77514689090959*^9, 3.7751469619331217`*^9}, 3.775147019772223*^9, 
    3.775220808831642*^9, 3.775220997300055*^9, {3.775221053111306*^9, 
-   3.775221074579748*^9}, 3.7752211049534492`*^9, 
-   3.775221971080018*^9},ExpressionUUID->"0c63d143-976f-410b-b604-\
-cfa403e0ca22"],
+   3.775221074579748*^9}, 3.7752211049534492`*^9, 3.775221971080018*^9, 
+   3.775222470434743*^9},ExpressionUUID->"d888b605-759d-4c34-b886-\
+0cc989eb6407"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
@@ -443,7 +451,7 @@ mkEhiZa6O1qro6uT2HRqW7viDYNGElWx46ozGxhwschui9/RxMBCYtHjnKz5
 LQy42JSui3/4jQEXVZGe2qkuBkoSrff23A9p69qT2LwvNKvAzeA9iWqhdXn/
 X11/JK76c01z9A8DLhZXGNo6OxlYSfwHj0lM4Q==
        "]]},
-     Annotation[#, "Charting`Private`Tag$8687#1"]& ], 
+     Annotation[#, "Charting`Private`Tag$12408#1"]& ], 
     TagBox[
      {RGBColor[0.880722, 0.611041, 0.142051], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -471,7 +479,7 @@ sGe2v9jpdJQCZStAeltsQMostb8YqC9heGcrQHs7DePj8bO/mSSl+mNsK0D8
 +k4oF3yxv5odkC07ditA/PSkZfsgqb+bD2aT6YkrQPXPyz5WyoW/j8L1KFyP
 K0AAAAAAAAAAAH+JyJ0=
        "]]},
-     Annotation[#, "Charting`Private`Tag$8687#2"]& ], 
+     Annotation[#, "Charting`Private`Tag$12408#2"]& ], 
     TagBox[
      {RGBColor[0.560181, 0.691569, 0.194885], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -611,7 +619,7 @@ vTXLjhlLJM8FqcOCn8yyP95+mCdQpQ4Z0vzLVn62O6liVh1yH89p4g7/KHrA
 x1wDMiv+LJuSba793xkNmL46tux3HiETsV0asCVjeNl6rIwv/GRNiFk7uOwc
 zSeNKX6aMPmkb9nXp8R3bLyvCcbPvyy7oDbw39KSJlTu+rzs/wFOMwpO
        "]]},
-     Annotation[#, "Charting`Private`Tag$8687#3"]& ], 
+     Annotation[#, "Charting`Private`Tag$12408#3"]& ], 
     TagBox[
      {RGBColor[0.922526, 0.385626, 0.209179], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -713,7 +721,7 @@ yiR1G0Droy0cG6cZcC9sdS40QOtNaMq7ZxhQ64m04UZjOp5fH/Fa8S8DDjrk
 1HCY0fHhizoJ2UsMyKEeEx5mTsflwLyDKMGAi8nsobMH6Pgp1iOlWBYDioKN
 Su5WdLzgucfftTUGVCOp/OyzpuP/AwwGCQ4=
        "]]},
-     Annotation[#, "Charting`Private`Tag$8687#4"]& ]}, {{}, {}}, {{
+     Annotation[#, "Charting`Private`Tag$12408#4"]& ]}, {{}, {}}, {{
      GraphicsGroupBox[{
        {GrayLevel[1], AbsoluteThickness[4], Opacity[
          NCache[
@@ -942,9 +950,17 @@ Su5WdLzgucfftTUGVCOp/OyzpuP/AwwGCQ4=
   DisplayFunction->Identity,
   Frame->{{True, True}, {True, True}},
   FrameLabel->{{
-     FormBox["\"log[c]\"", TraditionalForm], None}, {
-     FormBox["\"pH\"", TraditionalForm], 
-     FormBox["\"Species Concentrations\"", TraditionalForm]}},
+     FormBox[
+      StyleBox["\"log[Conc]\"", 
+       GrayLevel[0], FontSize -> 20, StripOnInput -> False], TraditionalForm],
+      None}, {
+     FormBox[
+      StyleBox["\"pH\"", 
+       GrayLevel[0], FontSize -> 20, StripOnInput -> False], TraditionalForm], 
+     FormBox[
+      StyleBox["\"Species Concentrations\"", 
+       GrayLevel[0], FontSize -> 20, StripOnInput -> False], 
+      TraditionalForm]}},
   FrameTicks->FrontEndValueCache[{{Automatic, 
       Charting`ScaledFrameTicks[{Identity, Identity}]}, {Automatic, 
       Charting`ScaledFrameTicks[{Identity, Identity}]}}, {{Automatic, {{-12.5, 
@@ -1014,6 +1030,7 @@ Su5WdLzgucfftTUGVCOp/OyzpuP/AwwGCQ4=
         FormBox[
          InterpretationBox[
           StyleBox[
+           
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}], Selectable -> False], TraditionalForm], {0.005, 
@@ -1292,6 +1309,7 @@ Su5WdLzgucfftTUGVCOp/OyzpuP/AwwGCQ4=
         FormBox[
          InterpretationBox[
           StyleBox[
+           
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}], Selectable -> False], TraditionalForm], {0.005, 
@@ -1453,7 +1471,6 @@ Su5WdLzgucfftTUGVCOp/OyzpuP/AwwGCQ4=
         FormBox[
          InterpretationBox[
           StyleBox[
-           
            GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
             Baseline], "CacheGraphics" -> False], 
           Spacer[{0., 0.}], Selectable -> False], TraditionalForm], {0.005, 
@@ -1618,12 +1635,13 @@ cREuwsW4GBfjElyCS3EpLsVluAw3U19DQ8nW
    3.775146753859014*^9}, {3.775146890929347*^9, 3.775146961951515*^9}, 
    3.775147019789441*^9, 3.775220808856287*^9, 3.775220997318308*^9, {
    3.775221053134098*^9, 3.775221074597625*^9}, 3.775221104971341*^9, 
-   3.7752219710980797`*^9},ExpressionUUID->"eece4c2e-793c-4977-be21-\
-a03a66ed15aa"]
+   3.7752219710980797`*^9, 
+   3.77522247045357*^9},ExpressionUUID->"3efdd940-b13a-4f6a-bb01-\
+9c60ffa2c080"]
 }, Open  ]]
 },
 WindowSize->{761, 822},
-WindowMargins->{{Automatic, 179}, {Automatic, 0}},
+WindowMargins->{{126, Automatic}, {Automatic, 0}},
 FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
 2017)",
 StyleDefinitions->"Default.nb"
@@ -1647,17 +1665,17 @@ Cell[1439, 49, 1639, 39, 96, "Input", "ExpressionUUID" -> \
 Cell[3081, 90, 1214, 31, 101, "Output", "ExpressionUUID" -> \
 "1cbb2343-3e1c-43d5-bd13-242f469aa036"]
 }, Open  ]],
-Cell[4310, 124, 9137, 218, 537, "Input", "ExpressionUUID" -> \
+Cell[4310, 124, 9566, 226, 579, "Input", "ExpressionUUID" -> \
 "52dceb80-30d3-4556-bc6b-cc904778dbbf"],
-Cell[13450, 344, 381, 8, 30, "Text", "ExpressionUUID" -> \
+Cell[13879, 352, 381, 8, 30, "Text", "ExpressionUUID" -> \
 "0956060a-89aa-443d-9e2b-b365d5c04520"],
 Cell[CellGroupData[{
-Cell[13856, 356, 1511, 40, 180, "Input", "ExpressionUUID" -> \
+Cell[14285, 364, 1511, 40, 180, "Input", "ExpressionUUID" -> \
 "746c8350-d56d-4e16-9d06-a51eb389fda0"],
-Cell[15370, 398, 1278, 20, 24, "Print", "ExpressionUUID" -> \
-"0c63d143-976f-410b-b604-cfa403e0ca22"],
-Cell[16651, 420, 54876, 1201, 401, "Output", "ExpressionUUID" -> \
-"eece4c2e-793c-4977-be21-a03a66ed15aa"]
+Cell[15799, 406, 1300, 20, 24, "Print", "ExpressionUUID" -> \
+"d888b605-759d-4c34-b886-0cc989eb6407"],
+Cell[17102, 428, 55167, 1211, 416, "Output", "ExpressionUUID" -> \
+"3efdd940-b13a-4f6a-bb01-9c60ffa2c080"]
 }, Open  ]]
 }
 ]
